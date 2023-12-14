@@ -14,9 +14,10 @@
 
     display: flex;
     justify-content: space-between;
-    padding: 25px 100px;
+    padding: 25px 360px;
 
     position: fixed;
+    z-index: 1;
 }
 
 .orange-bar img {
@@ -87,3 +88,90 @@
     text-decoration: line-through;
     font-weight: 400;
 }
+
+/* Fine main body */
+
+/* Etichette */
+
+.model {
+    position: relative;
+}
+
+.red-tag {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: red;
+    font-size: 10px;
+    font-family: sans-serif;
+    color: white;
+}
+
+.green-tag {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: green;
+    font-size: 10px;
+    font-family: sans-serif;
+    color: white;
+}
+
+.tags {
+    position: absolute;
+    bottom: 80px;
+    left: 0px;
+}
+
+.likehearts {
+    width: 35px;
+    height: 35px;
+    font-size: 28px;
+    background-color: white;
+    text-align: center;
+
+    position: absolute;
+    top: 10px;
+    right: 0px;
+}
+
+/* Fine etichette */
+
+/* Hover immagini */
+
+/*  Fine */
+
+/* Footer */
+
+.footer-end {
+    height: 75px;
+    background-color: #1a1a1a;
+    padding: 30px 360px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-end>* {
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.footer-end .boolandosrl .legalinformation {
+    font-size: 12px;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+.footer-end .followus {
+    font-size: 16px;
+}
+
+.footer-end .followus .socialinformation {
+    margin-top: 10px;
+}
+
+.footer-end .followus .socialinformation .fa-brands {
+    margin-right: 5px;
+}
+
+/* Fine footer */
