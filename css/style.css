@@ -137,10 +137,20 @@
 
 /* Hover immagini */
 
-.model.first {
-    background-image: url(../img/1.webp);
-    background-size: cover;
-    position: relative;
+.hoverpictures2 {
+    display: none;
+}
+
+.model:hover .hoverpictures2 {
+    display: inline-block;
+}
+
+.model:hover .hoverpictures {
+    display: none;
+}
+
+.model:hover .likehearts {
+    color: red;
 }
 
 /*  Fine hover immagini */
