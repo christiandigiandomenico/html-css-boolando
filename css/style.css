@@ -45,9 +45,45 @@
 
 .pictures-block {
     width: 1450px;
+    padding-top: 125px;
+    padding-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
 
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+}
 
-    background-color: red;
+.model {
+    width: 350px;
+}
+
+.model img {
+    width: 350px;
+}
+
+.model .item-name {
+    font-family: sans-serif;
+    font-size: 12px;
+}
+
+.model .item-class {
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.model .item-price {
+    font-family: sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    color: red;
+}
+
+.model .item-discount {
+    color: black;
+    text-decoration: line-through;
+    font-weight: 400;
 }
